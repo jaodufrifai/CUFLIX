@@ -1,15 +1,15 @@
 body {
-    color: black;
-    background:  whi;
+    color: lime;
+    background: black;
     margin: 0px;
-    font-family: "Audiowide", serif;
+    font-family: "Rubik Wet Paint", system-ui;
 }
 
 header {
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px lime;
     padding: 20px;
     font-size: 32px;
-    color: black;
+    color: lime;
 }
 
 .background {
@@ -17,16 +17,16 @@ header {
 }
 
 .chamada {
-    background: white;
+    background: black;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px lime;
 }
 
 .video {
-    border: solid 2px black;
+    border: solid 2px lime;
 }
 
 .chamada-texto {
@@ -42,13 +42,13 @@ header {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    color: black;
+    color: lime;
     /* Define a cor do texto */
 }
 
 .cursor {
     display: inline-block;
-    color: black;
+    color: lime;
     /* Define a mesma cor do texto */
     animation: blink-caret 0.7s step-end infinite;
 }
@@ -86,7 +86,7 @@ p {
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    scrollbar-color: black white;
+    scrollbar-color: lime black;
     scrollbar-width: thin;
     gap: 10px;
 }
@@ -104,11 +104,11 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid black;
+    border: 3px solid lime;
 }
 
 .categoria h2 {
-    color: black;
+    color: lime;
 }
 
 .copyright {
