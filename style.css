@@ -1,18 +1,19 @@
 body {
-    color: white; /* Cor do texto do corpo */
+    color: red; /* Cor do texto do corpo */
     background: black;
     margin: 0px;
     font-family: "Audiowide", serif;
 }
 
 header {
-    border-bottom: solid 2px white; /* Cor da borda do cabeçalho */
+    border-bottom: solid 2px red; /* Cor da borda do cabeçalho */
     padding: 20px;
     font-size: 32px;
-    color: white; /* Cor do texto do cabeçalho */
+    color: red; /* Cor do texto do cabeçalho */
 }
 
 .titulo {
+    font-size: 50px;
     .white { color: white; }
     .blue { color: blue; }
     .red { color: red; }
@@ -28,39 +29,35 @@ header {
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 2px white; /* Cor da borda */
+    border-bottom: solid 2px red; /* Cor da borda */
 }
 
 .video {
-    border: solid 2px white; /* Cor da borda do vídeo */
+    border: solid 2px red; /* Cor da borda do vídeo */
 }
 
 .chamada-texto {
     margin-right: 5%;
-}
-
-.typewriter {
-    display: inline-block;
-    white-space: nowrap;
+    font-family: "Turret Road", serif;
 }
 
 .text {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    color: white; /* Define a cor do texto */
+    color: red; /* Define a cor do texto */
 }
 
 .cursor {
     display: inline-block;
-    color: white; /* Define a mesma cor do texto */
+    color: red; /* Define a mesma cor do texto */
     animation: blink-caret 0.7s step-end infinite;
 }
 
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    scrollbar-color: white black; /* Cor da barra de rolagem */
+    scrollbar-color: red black; /* Cor da barra de rolagem */
     scrollbar-width: thin;
     gap: 10px;
 }
@@ -69,6 +66,7 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
+    font-family: "Turret Road", serif;
 }
 
 .categoria-videos img {
@@ -78,19 +76,21 @@ header {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid white; /* Cor da borda das imagens ao passar o mouse */
+    border: 3px solid red; /* Cor da borda das imagens ao passar o mouse */
 }
 
 .categoria h2 {
-    color: white; /* Cor do texto do título das categorias */
+    color: red; /* Cor do texto do título das categorias */
 }
 
 .copyright {
-    font-size: 50px;
-    padding: 40px;
+    font-size: 40px;
+    padding: 20px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: white; /* Cor do texto do rodapé */
+    .white { color: white; }
+    .blue { color: blue; }
+    .red { color: red; }
 }
