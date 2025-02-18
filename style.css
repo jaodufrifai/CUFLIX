@@ -1,22 +1,21 @@
 body {
-    color: lime;
+    color: white; /* Cor do texto do corpo */
     background: black;
     margin: 0px;
     font-family: "Audiowide", serif;
 }
 
 header {
-    border-bottom: solid 2px lime;
+    border-bottom: solid 2px white; /* Cor da borda do cabeçalho */
     padding: 20px;
     font-size: 32px;
-    color: lime;
+    color: white; /* Cor do texto do cabeçalho */
 }
 
 .titulo {
     .white { color: white; }
     .blue { color: blue; }
     .red { color: red; }
-    width: 50;
 }
 
 .background {
@@ -29,11 +28,11 @@ header {
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 2px lime;
+    border-bottom: solid 2px white; /* Cor da borda */
 }
 
 .video {
-    border: solid 2px lime;
+    border: solid 2px white; /* Cor da borda do vídeo */
 }
 
 .chamada-texto {
@@ -88,7 +87,7 @@ p {
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    scrollbar-color: lime black;
+    scrollbar-color: white black; /* Cor da barra de rolagem */
     scrollbar-width: thin;
     gap: 10px;
 }
@@ -106,11 +105,11 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid lime;
+    border: 3px solid white; /* Cor da borda das imagens ao passar o mouse */
 }
 
 .categoria h2 {
-    color: lime;
+    color: white; /* Cor do texto do título das categorias */
 }
 
 .copyright {
@@ -120,4 +119,5 @@ p {
     text-align: center;
     justify-content: center;
     align-items: center;
+    color: white; /* Cor do texto do rodapé */
 }
