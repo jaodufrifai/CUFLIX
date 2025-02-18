@@ -47,13 +47,13 @@ header {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    color: lime;
+    color: white;
     /* Define a cor do texto */
 }
 
 .cursor {
     display: inline-block;
-    color: lime;
+    color: white;
     /* Define a mesma cor do texto */
     animation: blink-caret 0.7s step-end infinite;
 }
