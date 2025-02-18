@@ -1,12 +1,4 @@
-.white { color: white; }
-.blue { color: blue; }
-.red { color: red; 
-
 body {
-    .white { color: white; }
-    .blue { color: blue; }
-    .red { color: red; 
-
     color: lime;
     background: black;
     margin: 0px;
@@ -19,6 +11,11 @@ header {
     font-size: 32px;
     color: lime;
 }
+
+.titulo
+    .white { color: white; }
+    .blue { color: blue; }
+    .red { color: red; 
 
 .background {
     background: url('bg-desktop.gif');
