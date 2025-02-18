@@ -15,7 +15,8 @@ header {
 .titulo {
     .white { color: white; }
     .blue { color: blue; }
-    .red { color: red; } /* Certifique-se de que esta chave de fechamento esteja presente */
+    .red { color: red; }
+    width: 50;
 }
 
 .background {
