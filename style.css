@@ -12,11 +12,11 @@ header {
     color: lime;
 }
 
-.titulo
+.titulo {
     .white { color: white; }
     .blue { color: blue; }
-    .red { color: red; 
-
+    .red { color: red; }
+}
 .background {
     background: url('bg-desktop.gif');
 }
