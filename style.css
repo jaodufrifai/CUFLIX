@@ -1,8 +1,12 @@
 .white { color: white; }
 .blue { color: blue; }
 .red { color: red; 
-    
+
 body {
+    .white { color: white; }
+    .blue { color: blue; }
+    .red { color: red; 
+
     color: lime;
     background: black;
     margin: 0px;
