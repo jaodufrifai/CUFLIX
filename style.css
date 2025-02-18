@@ -15,8 +15,9 @@ header {
 .titulo {
     .white { color: white; }
     .blue { color: blue; }
-    .red { color: red; }
+    .red { color: red; } /* Certifique-se de que esta chave de fechamento esteja presente */
 }
+
 .background {
     background: url('bg-desktop.gif');
 }
@@ -47,14 +48,12 @@ header {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    color: white;
-    /* Define a cor do texto */
+    color: white; /* Define a cor do texto */
 }
 
 .cursor {
     display: inline-block;
-    color: white;
-    /* Define a mesma cor do texto */
+    color: white; /* Define a mesma cor do texto */
     animation: blink-caret 0.7s step-end infinite;
 }
 
@@ -62,19 +61,16 @@ header {
     from {
         width: 0;
     }
-
     to {
         width: 100%;
     }
 }
 
 @keyframes blink-caret {
-
     from,
     to {
         opacity: 1;
     }
-
     50% {
         opacity: 0;
     }
